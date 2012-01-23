@@ -1,5 +1,5 @@
 define(
-	[ "async!http://maps.google.com/maps/api/js?key=	&sensor=true!callback" ],
+	[ "async!http://maps.google.com/maps/api/js?key=YOUR_KEY&sensor=true!callback" ],
 	function() {
 		return {
 			addMapToCanvas: function( mapCanvas ) {

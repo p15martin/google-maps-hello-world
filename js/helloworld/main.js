@@ -10,7 +10,7 @@ require(
 	[ "jquery", "google" ],
 	function( $, google ) {
 
-		var mapCanvas = $( "#map_canvas" )[0];
+		var mapCanvas = $( "#map_canvas" ).get( 0 );
 
 		google.addMapToCanvas( mapCanvas );
 	}
